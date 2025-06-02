@@ -1,19 +1,8 @@
 # TypeScript Swagger Auto-Generated API
 
-A comprehensive REST API built with TypeScript, Express.js, and Swagger UI, demonstrating modern API development practices with automatic documentation generation.
+A REST API built with TypeScript, Express.js, and Swagger UI, demonstrating modern API development practices with automatic documentation generation.
+Using swagger-autogen.
 
-## Features
-
-- **Complete CRUD Operations** - User management with full lifecycle support
-- **Interactive API Documentation** - Auto-generated Swagger UI interface
-- **Authentication Endpoints** - JWT-based login, logout, and password reset
-- **Admin Panel** - Administrative features with role-based access
-- **File Upload Support** - Avatar upload functionality with multipart/form-data
-- **Search & Filtering** - Advanced user search and filtering capabilities
-- **Analytics Dashboard** - Platform statistics and monitoring
-- **Data Export** - Multiple format support (CSV, JSON, XLSX)
-- **TypeScript** - Full type safety and modern development experience
-- **Clean Architecture** - Separation of concerns with centralized documentation
 
 ## Technologies Used
 
@@ -26,22 +15,15 @@ A comprehensive REST API built with TypeScript, Express.js, and Swagger UI, demo
 
 ### Prerequisites
 - Node.js (v14 or higher)
-- npm or yarn
+- npm
 
 ### Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd ts-swagger-autogen-app
-   ```
-
-2. **Install dependencies**
+ **Install dependencies**
    ```bash
    npm install
    ```
-
-3. **Start the application**
+ **Start the application**
    ```bash
    npm run dev
    ```
@@ -139,15 +121,6 @@ ts-swagger-autogen-app/
 └── README.md                      # Project documentation
 ```
 
-## Architecture
-
-### Clean Architecture Approach
-This project demonstrates a **clean architecture** where:
-
-- **Route Logic** (`userRoutes.ts`) - Pure business logic without documentation clutter
-- **API Documentation** (`index.ts`) - Centralized Swagger specification
-- **Type Safety** - Complete TypeScript coverage with strict configuration
-- **Error Handling** - Centralized error management with custom error classes
 
 ### Manual Swagger Specification vs Annotations
 Instead of using inline `#swagger` comments, this project uses a **manual Swagger specification**:
